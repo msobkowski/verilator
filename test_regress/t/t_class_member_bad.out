@@ -1,9 +1,9 @@
-%Error: t/t_class_member_bad.v:17:9: Member 'memb3' not found in class 'Cls2'
+%Error: t/t_class_member_bad.v:18:9: Member 'memb3' not found in class 'Cls2'
                                    : ... In instance t
                                    : ... Suggested alternative: 'memb2'
       c.memb3 = 3;   
         ^~~~~
-%Warning-WIDTH: t/t_class_member_bad.v:17:15: Operator ASSIGN expects 1 bits on the Assign RHS, but Assign RHS's CONST '?32?sh3' generates 32 or 2 bits.
+%Warning-WIDTH: t/t_class_member_bad.v:18:15: Operator ASSIGN expects 1 bits on the Assign RHS, but Assign RHS's CONST '?32?sh3' generates 32 or 2 bits.
                                             : ... In instance t
       c.memb3 = 3;   
               ^
